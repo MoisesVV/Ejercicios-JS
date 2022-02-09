@@ -65,7 +65,7 @@ cadenaArrelgo("Hola mundo como estas"," ");
  */
 
 //Programa numero 4:
-
+/*
 const repetirTexto = (texto = "", veces =  undefined) => {
   if(!texto){
     return console.warn("No ingresastes ningun texto");
@@ -82,3 +82,30 @@ const repetirTexto = (texto = "", veces =  undefined) => {
 repetirTexto();
 repetirTexto("Hola");
 repetirTexto("Hola",4);
+
+
+5) Programa una función que invierta las palabras de una cadena de texto, pe. miFuncion("Hola Mundo") devolverá "odnuM aloH".
+6) Programa una función para contar el número de veces que se repite una palabra en un texto largo, pe. miFuncion("hola mundo adios mundo", "mundo") devolverá 2.
+7) Programa una función que valide si una palabra o frase dada, es un palíndromo (que se lee igual en un sentido que en otro), pe. mifuncion("Salas") devolverá true.
+8) Programa una función que elimine cierto patrón de caracteres de un texto dado, pe. miFuncion("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz") devolverá  "1, 2, 3, 4 y 5.*/
+
+
+//Programa numero 5;
+
+/*metodos usados
+split() separará cada carácter de una cadena y lo convertirá en un array.
+reverse() tomará esa matriz e invertirá los elementos dentro de ella.
+join() unirá los caracteres que han sido invertidos por la función reverse().
+
+
+const cadenaVolteda = (cadena = "")=>
+(!cadena)
+?console.warn("No ingresastes ninguna cadena")
+:console.info(cadena.split("").reverse().join(""));
+
+cadenaVolteda();
+cadenaVolteda("Hola mundo");*/
+
+//Prpgrama numero 6;
+
+///////
