@@ -106,6 +106,84 @@ const cadenaVolteda = (cadena = "")=>
 cadenaVolteda();
 cadenaVolteda("Hola mundo");*/
 
-//Prpgrama numero 6;
+//Programa numero 6;
 
-///////
+/*const constarCaracter =  (cadena = "",caracter = "") => {
+
+  if(!cadena)return console.warn("No ingresastes ninguna cadena");
+  if (!caracter) return console.warn("No ingresastes el caracter a encontrar");
+
+    let i = 0,
+    contador = 0;
+
+    while(i!== -1){
+      i = cadena.indexOf(caracter,i);
+      if(i!== -1){
+        i++;
+        contador++;
+      }
+    }
+    return console.info(`La palabra ${caracter} se repite ${contador} veces`);
+  }
+
+constarCaracter();
+constarCaracter("hola");
+constarCaracter("hola mundo como hola estas hola y hola","hola");
+*/
+
+
+//Programa numero 7:
+
+/*const palindromo = (texto = "") => {
+  if(!texto) return console.warn("No ingresastes ningun texto");
+
+  texto = texto.toLocaleLowerCase();
+  let alRevez = texto.split("").reverse().join("");
+
+  return (texto === alRevez)
+  ? console.info(`El texto ${texto} si es palindromo = ${alRevez} `)
+  : console.info(`El texto ${texto} No es palindromo = ${alRevez} `)
+}
+
+palindromo();
+palindromo("salas")
+*/
+
+//Programa numero 8:
+/*
+const eliminarCaracter = (texto = "",patron = "") =>
+(!texto)
+? console.warn("No ingresastes ningun texto")
+: (!patron)
+? console.warn("No ingresastes el patron a eliminar")
+:console.info(texto.replace(new RegExp(patron,"ig"),""));
+
+eliminarCaracter();
+eliminarCaracter("xyz1, xyz2, xyz3, xyz4 y xyz5");
+eliminarCaracter("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz");
+*/
+
+//////////////////////////////////////////////////////////
+
+/*
+9) Programa una función que obtenga un numero aleatorio entre 501 y 600.
+10) Programa una función que reciba un número y evalúe si es capicúa o no (que se lee igual en un sentido que en otro), pe. miFuncion(2002) devolverá true.
+11) Programa una función que calcule el factorial de un número (El factorial de un entero positivo n, se define como el producto de todos los números enteros positivos desde 1 hasta n), pe. miFuncion(5) devolverá 120.
+*/
+
+//Programa numero 9:
+
+/*
+const numeroAleatorio = () => console.info(Math.round((Math.random()*100)+ 500));
+
+
+numeroAleatorio();
+*/
+
+//Programa numero 10;
+
+const capicua = (numero = 0) => {
+
+  if (!numero) return console.warn("No ingresastes ningun numreo");
+  if(typeof numero !== "number") return console.warn("Ingresado ,no es un numero");
+}
